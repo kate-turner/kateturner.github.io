@@ -1,0 +1,140 @@
+
+body {
+	background: #FFDAB9;
+}
+
+.container {
+	border: 6px solid #151515;
+	border-radius: 10px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    height: 760px;
+    width: 730px;
+}
+
+.header {
+	background-image: linear-gradient(420deg, orange, pink, blue);
+	display: relative;
+	width: 710px;
+	height: 90px;
+	justify-content: center;
+	border-bottom: solid 2px #151515;
+}
+
+h1 {
+	font-size: 67px;
+	font-family: 'Permanent Marker', cursive;
+	letter-spacing: 5px;
+	margin-top: 11px;
+	justify-content: center;
+	align-self: center;
+}
+
+/*---- Stats styling ----*/
+
+.col-sm-3 {
+	
+	border-radius: 50px;
+	width: 100px;
+	height: 50px;
+	justify-content: center;
+	align-content: center;
+	background: #87CEFA;
+	margin-top: 15px;
+	text-align: center;
+	color: black;
+}
+
+.stats {
+	font-family: 'Permanent Marker', cursive;
+	display: inline-flex;
+	border-top: 2px solid #151515;
+	background-color: orange;
+	width: 710px;
+	height: 100px;
+	justify-content: space-around;
+}
+
+
+#reset {
+	width: 120px;
+	height: 75px;
+	align-self: center;
+	justify-content: center
+	margin-top: 10px;
+}
+
+
+/*---- Game Board styling ----*/
+
+.game-board {
+	background: linear-gradient(to bottom, rgba(242,245,246,1) 0%,rgba(227,234,237,1) 37%,rgba(200,215,220,1) 100%);
+	display: flex;
+    justify-content: center;
+    text-align: center;
+ 	flex-direction: row;
+	/*height: 612px;*/
+	height: 700px;
+ 	width: 710px;
+ }
+
+.game-square {
+	
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin: 3px;
+}
+
+.skier {
+	background-image: url("../images/retroskier.png");
+	background-size: 80%;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.tree {
+	background-image: url("../images/tree.png");
+	background-size: cover;
+}
+
+.rock {
+	background-image: url("../images/rock.png");
+	background-size: 70%; 
+	background-repeat: no-repeat;
+}
+
+.skierDown {
+	background-image: url("../images/retroskier.png");
+	background-size: 80%;
+	background-repeat: no-repeat;
+	transform: rotate(180deg);
+}
+
+.skierRight {
+	background-image: url("../images/retroskier.png");
+	background-size: 80%;
+	background-repeat: no-repeat;
+	transform: scaleX(-1);
+}
+
+.finishLine {
+	background-image: url("../images/finish-line.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.winner {
+	background: #FFD700;
+	color: white;
+	justify-content: center;
+	size: 130px;
+}
+
+
+
+
+
+
